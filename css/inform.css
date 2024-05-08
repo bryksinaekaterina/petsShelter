@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #FFFAF4;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 58px;
+    color:#fff;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 40px;
+    color:#ED8F2B;
+    text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color:#ED8F2B;
+}
+
+h4{
+    color:#ED8F2B;
+    margin-bottom: 40px;
+}
+
+.above-form{
+    margin-top: 110px;
+}
+
+p{
+    margin: 0;
+    line-height: 1.4em;  
+    padding-top: 5px;
+    font-family: 'Montserrat Alternates', sans-serif;;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 85%;
+}
+
+main{
+    background-color: #FFFAF4;
+}
+
+
+.top{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto ;
+}
+
+
+.top-content{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 27px;
+    width: 80px;
+    height: 100px;
+    display:block;
+}
+
+.phone{
+    width: 35px;
+    height: 35px;
+}
+    
+.phone-number{
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    width: 230px;
+    font-size: 15px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu {
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.inactive{
+    text-decoration: none;
+    color: #000;
+   
+}
+
+.menu a {
+    padding-left: 30px;
+}
+
+
+.menu a:hover { 
+    color: #ED8F2B;
+}
+
+.active {
+    color:#ED8F2B;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.help-btn{
+    margin-top: 60px;
+    background: #f48a1a;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 130px;
+    height: 60px;
+    transition: all 0.5s ease;
+    padding: 20px 27px;
+    margin-right: 10px;
+}
+
+.help-btn:hover{
+    background-color: #DE770B;
+}
+
+
+.inform{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.inform-left{
+    padding-right: 50px;
+}
+
+
+.with-form{
+    background-image: url(../img/form-bg3.png);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    max-width: 620px; 
+    width: 100%;
+    transform: translateX(8%); 
+  }
+  .form-inputs{
+    display: flex;
+    gap: 40px;
+  }
+
+  .form input{
+    border-radius: 5px;
+    background: #fff;
+
+    padding: 10px 0 10px 6px;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: none;
+  }
+
+.request{
+    max-width: 530px;
+    width: 100%;
+}
+
+
+input, textarea {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #000; 
+}
+
+textarea {
+    border-radius: 8px;
+    height: 300px; 
+    background-color: #fff;
+    padding: 10px; 
+    width: 100%;
+    border: 1px solid #ccc; 
+}
+
+input:focus, textarea:focus{
+    border-color: #f48a1a;
+    outline: #f48a1a;
+}
+
+
+button{
+    margin: 0 auto;
+    height: 80px;
+    max-width: 240px;
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f48a1a;
+    border: none;
+    border-radius: 10px;
+}
+   
+button:hover{
+    transition: all 0.5s ease;
+    background-color: #DE770B;
+}
+
+
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+footer{
+    background-image: url(../img/bg.png);
+}
+
+
+.footer-container{
+    width: 97%;
+    margin: 0 auto;
+}
+
+.footer-menu{
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+}
+
+.footer-menu li{
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.footer-menu a:hover { 
+    color: #ED8F2B;
+}
+
+.footer-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map{
+    width: 294px;
+    height: 294px;
+}
+
+.email{
+    margin-bottom: 67px;
+}
+
+.help-btn-footer{
+    background: #f48a1a;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    padding: 20px 27px;
+    margin-left: 40px;
+}
+
+.help-btn-footer:hover{
+    background-color: #DE770B;
+}
+
+footer h3{
+    padding-bottom: 20px;
+}
+
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icon{
+    opacity: 87%;
+}
+
+.icon:hover{
+    opacity: 100%;
+}

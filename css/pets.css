@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-image: url(../img/bg.png);
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 58px;
+    color: #ED8F2B;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 40px;
+    color:#ED8F2B;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color:#ED8F2B;
+}
+
+p{
+    margin: 0;
+    line-height: 1.4em;  
+    font-family: 'Montserrat Alternates', sans-serif;;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+main{
+    background-color: #FFFAF4;
+}
+
+
+
+.top{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto ;
+}
+
+
+.top-content{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 27px;
+    width: 80px;
+    height: 100px;
+    display:block;
+}
+
+.phone{
+    width: 35px;
+    height: 35px;
+}
+    
+.phone-number{
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    width: 230px;
+    font-size: 15px;
+}
+
+.phone-number p{
+    padding-top: 5px;
+}
+
+
+
+.menu li {
+    display: inline;
+}
+
+.menu {
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.inactive{
+    text-decoration: none;
+    color: #000;
+   
+}
+
+.menu a {
+    padding-left: 30px;
+}
+
+
+.menu a:hover { 
+    color: #ED8F2B;
+}
+
+.active {
+    color:#ED8F2B;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.help-btn{
+    margin-top: 60px;
+    background: #f48a1a;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 130px;
+    height: 60px;
+    transition: all 0.5s ease;
+    padding: 20px 27px;
+    margin-right: 10px;
+}
+
+.help-btn:hover{
+    background-color: #DE770B;
+}
+
+.banner-h1{
+    padding-top: 80px;
+    padding-left: 90px;
+    margin-top: 95px;
+    width: 650px;
+}
+
+.banner{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/pets-bg.png);
+} 
+
+
+
+.pets-input{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 13px 11px 26px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.pets-input input{
+    font-family: 'Montserrat Alternates', sans-serif;;
+    font-size: 14;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+}
+.pets-input input::placeholder{
+    font-size: 18px;
+}
+.pets-input img{
+    cursor: pointer;
+}
+
+.pets-input input:focus{
+    outline:none;
+}
+
+.filter{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.filterBtn{
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 120px;
+    width: 100%;
+    height: 60px;
+    transition: all 0.5s ease;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filterBtn-active{
+    background: #f48a1a;
+    color: #FFFFFF;
+}
+
+
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.pagination-container button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    border: none;
+    background-color:  #FFFAF4;  
+    cursor: pointer;
+}
+
+
+.pets-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+.pet-card {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: #fff; 
+}
+
+.pet-card img {
+    width: 100%;
+    display: block; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+
+.pet-info {
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 10px; 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    border-radius: 10px;
+}
+
+.pets-cards-item{
+    max-width: 300px;
+    width: 100%;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.pets-cards-item:hover{
+    scale: 1.05;
+}
+
+.pets-cards-item h3{
+    color:#fff;
+} 
+
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.footer-container{
+    width: 97%;
+    margin: 0 auto;
+}
+
+.footer-menu{
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+}
+
+.footer-menu li{
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.footer-menu a:hover { 
+    color: #ED8F2B;
+}
+
+.footer-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map{
+    width: 294px;
+    height: 294px;
+}
+
+.email{
+    margin-bottom: 67px;
+}
+
+.help-btn-footer{
+    background: #f48a1a;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    padding: 20px 27px;
+    margin-left: 40px;
+}
+
+.help-btn-footer:hover{
+    background-color: #DE770B;
+}
+
+footer h3{
+    padding-bottom: 20px;
+}
+
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icon{
+    opacity: 87%;
+}
+
+.icon:hover{
+    opacity: 100%;
+}
+
